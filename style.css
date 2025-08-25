@@ -57,4 +57,16 @@ body {
 
 .sessao ul {
     list-style: none;
+    padding-left: 20px;
+}
+
+.sessao ul li::before {
+    content: "⭐";
+    margin-right: 8px;
+}
+
+.redes a {
+    margin-right:n 10px;
+    color: #6C63FF;
+    text-decoration: none;
 }
